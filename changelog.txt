@@ -1,0 +1,9 @@
+# Changelog
+
+## [0.3.0] - 8/30/25
+
+### Changes
+- Updated Epic Fight compat.
+
+### Mod Updates
+- Updated lots of stuff!
