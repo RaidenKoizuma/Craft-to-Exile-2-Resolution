@@ -1,9 +1,22 @@
 # Changelog
 
+## [0.5.1] - 11/15/25
+-Fixed epic fight compat
+-Implemented Origins/Origins UI, no config
+-Added Poe's color container mod
+-Implemened custom icon, credit to Poe and Dusk
+-Renamed iron coins to silver and other lightmans configging
+-Implented MNS and dependencies, configged HUD and player facing configs
+-Added DPS meter mod, need to config chat
+-Redone main menu/loading screen, new paintings
+-Minor changes to default options (fov, graphics, etc)
+-Implemented first assets
+-Initial overgeared configging.
+-Removed mine and meals, compat delight
+-Major changes to planning for mine and slash
+-CustomNPCs config and testing pass
+-Small optimizations pass on optimization mod configs
+-Many other changes not documented!
+
 ## [0.3.0] - 8/30/25
-
-### Changes
-- Updated Epic Fight compat.
-
-### Mod Updates
-- Updated lots of stuff!
+Initial Github sync
