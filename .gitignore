@@ -21,3 +21,7 @@ local/crash_assistant
 mods/mcef-cache
 mods/mcef-libraries
 mods/wesley*
+config/libraryferret_1.properties
+config/oculus.properties
+config/packetfixer.properties
+config/bettervillage_1.properties
