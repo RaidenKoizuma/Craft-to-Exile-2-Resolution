@@ -1,0 +1,23 @@
+[
+  {
+    "itemId": "minecraft:diamond",
+    "dropChance": 5.0,
+    "minAmount": 1,
+    "maxAmount": 1,
+    "requirePlayerBreak": true,
+    "allowDefaultDrops": true,
+    "replaceDefaultDrops": false,
+    "requiredTool": "minecraft:diamond_pickaxe",
+    "requiredEnchantLevel": 0,
+    "requiredDimension": "minecraft:overworld",
+    "nbtData": "{display:{Name:\u0027{\"text\":\"Magical Diamond\",\"color\":\"aqua\",\"italic\":false}\u0027,Lore:[\u0027{\"text\":\"A rare diamond with magical properties\",\"color\":\"gray\",\"italic\":false}\u0027]},Enchantments:[{id:\"minecraft:unbreaking\",lvl:3}]}",
+    "dropCommand": "say %player% found a magical diamond!",
+    "dropCommandChance": 50.0,
+    "breakCommand": "say %player% broke a block!",
+    "breakCommandChance": 25.0,
+    "comment": "Example global drop with NBT, commands, regeneration, and dimension requirement",
+    "canRegenerate": true,
+    "brokenBlockReplace": "minecraft:bedrock",
+    "respawnTime": 30
+  }
+]

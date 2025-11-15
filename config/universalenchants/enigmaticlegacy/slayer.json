@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticlegacy:eldritch_pan"
+  ],
+  "incompatible": [
+    "minecraft:sharpness",
+    "minecraft:bane_of_arthropods",
+    "minecraft:smite"
+  ]
+}

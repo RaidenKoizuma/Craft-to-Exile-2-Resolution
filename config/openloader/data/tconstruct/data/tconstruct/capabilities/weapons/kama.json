@@ -1,0 +1,11 @@
+{
+	"type": "epicfight:hoe",
+	"hit_particle":"hit_blade",
+	"hit_sound":"entity.hit.blade",
+	"attributes": {
+		"one-hand": {
+			"armor_negation": 5.0,
+			"speed_bonus": 1.5
+		}
+	}
+}

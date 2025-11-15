@@ -1,0 +1,7 @@
+
+[general]
+	#Any console messages containing any of these strings will be hidden.
+	basicFilters = ["Error loading class", "Found mod file", "@Mixin target", "Unable to set up variant", "Disconnecting VANILLA connection attempt", "Channels", "Skipping loading", "Found loot table element", "Detected setBlock", "Found mod file", "Reference map", "Error loading class", "@Mixin target", "Class dev", "Mixins added to", "Force-disabling", "Mod mixin into Embeddium internals detected", "Registering", "atlauncher", "worthiness", "Constructing", "Registered", "Loaded entity", "model attempted creation", "Failed to load item skin", "Value of", "Item Capability Exception"]
+	#Any console messages that match any of these regular expressions will be hidden. Uses Java style regex. Backslashes must be escaped, for example use \\s instead of \s to match whitespace.
+	regexFilters = []
+

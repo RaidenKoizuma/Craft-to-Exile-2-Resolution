@@ -1,0 +1,100 @@
+
+[researches]
+	#Range: 0.0 ~ 2.147483647E9
+	speed = 2.0
+	#Can be research multiple 6 depth, ignore limitation of choose only one
+	ignoreConstraints = true
+
+[fields]
+	#If true, Citizen can works same field to without wait time. Also work in field list by sequentially.
+	#If false, use MineColonies' s method.
+	newRetrieveMethod = true
+	#Range: 5 ~ 15
+	farmMaxRange = 5
+
+[jobs]
+	#Range: > 0
+	blockMiningDelay = 20
+	#Range: > 0
+	blockBuildingDelay = 5
+	#for restaurant, netherworker
+	#Range: > 0
+	menuPerLevel = 5
+	#Disables the citizen's leisure.
+	disableLeisure = true
+
+	[jobs.crafing]
+		#craftingTicks = progressMultiplier / craftSkillLevel * hittingTime
+		#Range: > 0
+		progressMultiplier = 10
+		#Range: > 0
+		hittingTime = 3
+		#The delay ticks for go to work again after Citizen returned at hut
+		#This was 0 in 1.19.2
+		#MineColonies's default value is `400`
+		#Range: 0 ~ 400
+		decideDelay = 0
+
+	[jobs.sifter]
+		#siftingTicks = progressMultiplier - strengthLevel
+		#Range: > 0
+		progressMultiplier = 50
+
+	[jobs.dyer]
+		#disables wool bleaching to avoid wool loop crafting. To take effect it requires using the command "/mc colony requestsystem-reset-all"
+		#MineColonies's default value is `false`
+		dyerDisableBleaching = true
+
+	[jobs.farmer]
+		#finalDelay = workDelay - (skillDivider * staminaLevel)
+		#Range: > 0
+		workDelay = 40
+		#Range: 0.0 ~ 2.147483647E9
+		skillDivider = 2.0
+		#if harvested count reached to this, farmer will go to dump
+		#Range: > 64
+		actionsDoneUntilDumping = 256
+		#whether plant seed after hoeing dirt
+		#MineColonies's default value is `false`
+		plantAfterHoe = true
+		#whether plant seed after harvest crop
+		#MineColonies's default value is `false`
+		plantAfterHarvest = true
+
+	[jobs.structure]
+		#If this is off, Builders will requests 'Leaves' on needed it when build.
+		leavesFree = true
+
+	[jobs.warehouse]
+		#Range: 1 ~ 20
+		couriersPerLevel = 2
+
+	[jobs.maximumStock]
+		#This will be affected by research effect 'effects/minimumstockmultiplier'
+		#Range: 0 ~ 100
+		kindsPerLevel = 5
+
+[citizens]
+	disableMourn = false
+	#MineColonies's default value is `false`
+	disableInteractionDelay = true
+
+[monsters]
+
+	[monsters.raider]
+		#MineColonies's default value is `false`
+		disableImmunity = true
+		#MineColonies's default value is `false`
+		disableThorns = true
+
+[blocks]
+
+	[blocks.crop]
+		#Caution: if change this, all planted MineColonies crops when before are will break into item.
+		#If this is true, player be can plant crop.
+		#MineColonies's default value is `false`
+		vanillaFarmland = true
+		#MineColonies's default value is `false`
+		ignoreBiome = true
+		canPerformBonemeal = true
+

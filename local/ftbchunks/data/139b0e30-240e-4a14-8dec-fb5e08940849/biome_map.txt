@@ -1,0 +1,8 @@
+#453 regions_unexplored:cold_boreal_taiga
+#705 minecraft:deep_frozen_ocean
+#292 minecraft:frozen_ocean
+#01C regions_unexplored:frozen_pine_taiga
+#3A0 minecraft:frozen_river
+#61B regions_unexplored:frozen_tundra
+#40A regions_unexplored:hyacinth_deeps
+#72D minecraft:snowy_beach

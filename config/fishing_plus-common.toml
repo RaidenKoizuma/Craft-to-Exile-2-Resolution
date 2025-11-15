@@ -1,0 +1,11 @@
+
+[Common]
+	#Enables the fishing minigame
+	enableMinigame = true
+	#Enables sound effects in the fishing minigame
+	enableSoundEffects = true
+	#Disables the Quality Food features for everything else then our fish. (Only if Quality Food is installed)
+	disableQualityFoodForNonFish = false
+	#Enables the custom trade with the fisherman villager for the fish crate.
+	enableCustomTrade = true
+

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:tesla_bow"
+  ],
+  "incompatible": [
+    "swem:galaxy_coat",
+    "minecraft:multishot"
+  ]
+}

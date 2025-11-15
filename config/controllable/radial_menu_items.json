@@ -1,0 +1,38 @@
+[
+  {
+    "key": "key.ftbteams.open_gui.custom",
+    "color": "DARK_GREEN"
+  },
+  {
+    "key": "key.ftbchunks.waypoint_manager.custom",
+    "color": "DARK_AQUA"
+  },
+  {
+    "key": "key.ftbchunks.map.custom",
+    "color": "RED"
+  },
+  {
+    "key": "key.wyb.check.custom",
+    "color": "WHITE"
+  },
+  {
+    "key": "controllable.key.open_controllable_settings",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.togglePerspective",
+    "color": "DARK_BLUE"
+  },
+  {
+    "key": "key.ftbquests.quests.custom",
+    "color": "GOLD"
+  },
+  {
+    "key": "key.epicfight.skill_gui.custom",
+    "color": "DARK_PURPLE"
+  },
+  {
+    "key": "key.ftbchunks.claim_manager.custom",
+    "color": "GRAY"
+  }
+]

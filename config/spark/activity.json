@@ -1,0 +1,67 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "RaidenKoizuma",
+      "uniqueId": "7bd63701-9619-425e-8a15-6e520783bf5e"
+    },
+    "time": 1762623281324,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/VKTU4aise3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "RaidenKoizuma",
+      "uniqueId": "7bd63701-9619-425e-8a15-6e520783bf5e"
+    },
+    "time": 1762623166110,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/2hxZogiP28"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "RaidenKoizuma",
+      "uniqueId": "7bd63701-9619-425e-8a15-6e520783bf5e"
+    },
+    "time": 1760393538666,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/MBnApXwBOu"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "RaidenKoizuma",
+      "uniqueId": "7bd63701-9619-425e-8a15-6e520783bf5e"
+    },
+    "time": 1756612293203,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\raide\\curseforge\\minecraft\\Instances\\CTE Red\\config\\spark\\heap-2025-08-30_23.51.18.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "RaidenKoizuma",
+      "uniqueId": "7bd63701-9619-425e-8a15-6e520783bf5e"
+    },
+    "time": 1756610544693,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\raide\\curseforge\\minecraft\\Instances\\CTE Red\\config\\spark\\heap-2025-08-30_23.21.30.hprof"
+    }
+  }
+]

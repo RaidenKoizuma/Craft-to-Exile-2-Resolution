@@ -1,0 +1,23 @@
+[
+  {
+    "command": "effect give {player} minecraft:luck 10 0",
+    "commandChance": 10.0,
+    "commandCooldown": 60,
+    "comment": "Global command - gives luck effect on any fishing catch"
+  },
+  {
+    "itemId": "minecraft:experience_bottle",
+    "dropChance": 5.0,
+    "minAmount": 1,
+    "maxAmount": 1,
+    "commandChance": 100.0,
+    "commandCooldown": 0,
+    "dropCommand": "tellraw {player} {\"text\":\"Bonus XP bottle!\",\"color\":\"green\"}",
+    "dropCommandChance": 100.0,
+    "dropCommandCooldown": 0,
+    "extraDropChance": 0.0,
+    "extraAmountMin": 1,
+    "extraAmountMax": 1,
+    "comment": "5% chance for experience bottle on any fishing catch"
+  }
+]

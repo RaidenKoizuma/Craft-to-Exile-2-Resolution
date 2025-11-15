@@ -1,0 +1,9 @@
+{
+	"type": "epicfight:shield",
+	"attributes": {
+		"common": {
+			"speed_bonus": 2.0,
+			"damage_bonus": 1.0
+		}
+	}
+}

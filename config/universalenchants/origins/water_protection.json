@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor"
+  ],
+  "incompatible": [
+    "swem:galaxy_coat",
+    "minecraft:fire_protection",
+    "minecraft:blast_protection",
+    "minecraft:protection",
+    "minecraft:projectile_protection"
+  ]
+}
